@@ -1,0 +1,68 @@
+.top__container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../../imgs/farm_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $clr-light;
+  padding: 0 5rem;
+
+  a {
+    color: $clr-light;
+    transition: all $transition;
+  }
+
+  a:hover {
+    color: $primary-clr;
+  }
+}
+
+#header {
+  max-width: $width;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+
+  #logo {
+    font-size: 1.8rem;
+  }
+
+  &__list {
+    text-align: center;
+
+    .nav__item {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.intro {
+  max-width: $width;
+  margin: 0 auto;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__head {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+  }
+
+  &__lead {
+    font-size: 5rem;
+    line-height: 1.3;
+    font-weight: bold;
+
+    strong {
+      color: $primary-clr;
+    }
+  }
+}

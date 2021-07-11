@@ -1,0 +1,25 @@
+body {
+  line-height: 2.4rem;
+  color: $clr-light;
+  font-family: $font;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: $clr-light;
+  transition: color 300ms ease;
+}
+
+a:hover {
+  color: $primary-clr;
+}
+
+ul {
+  list-style: none;
+}

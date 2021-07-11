@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 2.4rem;
+  color: #f4fceb;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #f4fceb;
+  transition: color 300ms ease;
+}
+
+a:hover {
+  color: #70e000;
+}
+
+ul {
+  list-style: none;
+}
+
+.top__container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../imgs/farm_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header {
+  max-width: 114rem;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.navbar #logo {
+  font-size: 1.8rem;
+}
+.navbar__list {
+  text-align: center;
+}
+.navbar__list .nav__item {
+  font-size: 1.5rem;
+}
+
+.intro {
+  max-width: 114rem;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro__head {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+.intro__lead {
+  font-size: 5rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.intro__lead strong {
+  color: #70e000;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #70e000;
+  transition: all 300ms ease;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #3ab300;
+  color: #f4fceb;
+}
+
+.cta {
+  margin: 1% 0;
+}/*# sourceMappingURL=main.css.map */

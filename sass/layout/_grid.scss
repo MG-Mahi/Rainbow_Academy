@@ -1,0 +1,18 @@
+#main {
+  margin: 2% auto;
+
+  .head_2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  max-width: $width;
+  place-items: center;
+  margin: 3% auto;
+}
