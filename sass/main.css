@@ -8,9 +8,34 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  html {
+    font-size: 45.5%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 38.5%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 32.5%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  html {
+    font-size: 28.5%;
+  }
+}
 body {
   line-height: 2.4rem;
-  color: #f4fceb;
+  color: #171e10;
   font-family: "Roboto", sans-serif;
 }
 
@@ -22,7 +47,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #f4fceb;
+  color: #70e000;
   transition: color 300ms ease;
 }
 
@@ -39,6 +64,15 @@ ul {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #f4fceb;
+  padding: 0 5rem;
+}
+.top__container a {
+  color: #f4fceb;
+  transition: all 300ms ease;
+}
+.top__container a:hover {
+  color: #70e000;
 }
 
 #header {
@@ -84,6 +118,59 @@ ul {
   color: #70e000;
 }
 
+#main {
+  margin: 2% auto;
+}
+#main .head_2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 114rem;
+  place-items: center;
+  margin: 3% auto;
+}
+
+.footer {
+  width: 100%;
+  height: 5vh;
+  background-color: #70e000;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+  height: 23.3667rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+  padding: 1rem 0 0 1rem;
+  border-radius: 0.3rem;
+}
+.card__head {
+  font-size: 2rem;
+}
+.card__docs {
+  margin-top: 2rem;
+  height: 17.3667rem;
+  overflow-y: scroll;
+}
+.card__docs__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem auto;
+}
+.card__docs__pdf {
+  font-size: 1.3rem;
+}
+
 .btn {
   padding: 0.8rem 3rem;
   border: none;
@@ -91,6 +178,7 @@ ul {
   background-color: #70e000;
   transition: all 300ms ease;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -100,4 +188,10 @@ ul {
 
 .cta {
   margin: 1% 0;
+}
+
+.download {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
 }/*# sourceMappingURL=main.css.map */

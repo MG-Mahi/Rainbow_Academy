@@ -1,6 +1,6 @@
 body {
   line-height: 2.4rem;
-  color: $clr-light;
+  color: $clr-dark;
   font-family: $font;
 }
 
@@ -12,7 +12,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: $clr-light;
+  color: $primary-clr;
   transition: color 300ms ease;
 }
 

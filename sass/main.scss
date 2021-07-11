@@ -7,6 +7,11 @@
 
 // Layouts
 @import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+
+// Components
+@import "components/card";
 
 // Utilities
-@import "components/buttons";
+@import "abstracts/buttons";
